@@ -20,6 +20,7 @@ public class Main{
                     default -> {}
                 }
             }
+            reader.close();
         }catch(Exception e){
             System.out.print(e.getMessage());
             return;
