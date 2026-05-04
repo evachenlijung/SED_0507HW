@@ -24,7 +24,7 @@ public class Main{
 
                 reader.convert(rtf.getTokens(), textformat);
             }
-
+            br.close();
         }catch(Exception e){
             System.out.println(e.getMessage());
             return;
