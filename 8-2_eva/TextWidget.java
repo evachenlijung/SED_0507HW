@@ -1,5 +1,5 @@
-public class TextWeight implements TextFormat{
-    public TextWeight(){
+public class TextWidget implements TextFormat{
+    public TextWidget(){
 
     }
     
