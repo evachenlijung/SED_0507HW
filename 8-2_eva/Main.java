@@ -15,7 +15,7 @@ public class Main{
                 TextFormat textformat = null;
                 switch(line){
                     case "TeX" -> {textformat = new TeX(); }
-                    case "TextWidget" -> {textformat = new TextWeight(); }
+                    case "TextWidget" -> {textformat = new TextWidget(); }
                     default -> {}
                 }
 
